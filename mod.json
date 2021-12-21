@@ -1,0 +1,8 @@
+{
+    "name": "testmod",
+    "displayName": "Mandu's Scribbles",
+    "author": "Mandu",
+    "version": 0.1,
+    "minGameVersion": 126,
+    "hidden": "false"
+}
