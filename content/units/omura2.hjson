@@ -42,7 +42,7 @@ weapons: [
             despawnEffect: smokeCloud
             smokeEffect: none
 
-            shootEffect: greenLaserChargeSmall
+            //shootEffect: greenLaserChargeSmall
 
             incendChance: 0.05
             incendSpread: 5
@@ -56,8 +56,8 @@ weapons: [
         top: true
         shake: 1
         shootY: 5
-        x: -5
-        y: -5
+        x: 10
+        y: -20
 
         reload: 20
         continuous: false
@@ -66,8 +66,9 @@ weapons: [
         bullet: {
             type: ArtilleryBulletType
             damege: 50
-            height: 8
-            speed: 4.5
+            height: 20
+            length: 20
+            speed: 4
             lifetime: 120
             collidesTiles: false
 
