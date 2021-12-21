@@ -14,4 +14,4 @@ hitSize = 18
 engineSize = 3
 payloadCapacity = 512
 buildSpeed = 2.6
-isCounted = false
+//isCounted = false
