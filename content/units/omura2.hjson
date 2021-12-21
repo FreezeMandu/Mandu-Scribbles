@@ -27,7 +27,7 @@ weapons: [
         x: 20
         y: -35
 
-        reload: 40
+        reload: 30
         continuous: false
         rotate: true
 
@@ -38,12 +38,15 @@ weapons: [
             length: 20
             speed: 4
             lifetime: 120
-            collidesTiles: true
+
+            collidesTiles: false
+            collides: true
+            homingPower: 0.1
 
             splashDamage: 44
             splashDamageRadius: 80
-            lightning: 2
-            lightningLength: 10
+            lightning: 5
+            lightningLength: 7
         }
     }
 ]
