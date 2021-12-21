@@ -3,7 +3,7 @@ armor: 6
 speed: 2
 mineTier: 4
 mineSpeed: 10
-rotateSpeed: 4
+rotateSpeed: 3
 
 accel: 0.06
 drag: 0.017
@@ -31,17 +31,20 @@ weapons: [
         reload: 30
         continuous: false
         rotate: true
+        targetAir: false
 
         bullet: {
             type: ArtilleryBulletType
             damege: 80
             height: 20
             length: 20
-            speed: 4
+            speed: 5
             lifetime: 120
 
             collidesTiles: false
             collides: true
+            collidesAir: true
+            collidesGround: true
             homingPower: 0.1
 
             splashDamage: 100
