@@ -50,6 +50,7 @@ weapons: [
             splashDamageRadius: 80
             lightning: 5
             lightningLength: 12
+            lightningDamage: 18
         }
     }
 ]
