@@ -1,4 +1,4 @@
-defaultController = BuilderAI
+//defaultController = BuilderAI
 mineTier = 4
 mineSpeed = 10
 health = 460
