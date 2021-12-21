@@ -27,7 +27,8 @@ weapons: [
         y: 10
 
         reload: 30
-        continuous: true
+        continuous: false
+        rotate: true
 
         bullet: {
             type: LaserBulletType
@@ -35,7 +36,7 @@ weapons: [
             length: 150
             hitEffect: hitMeltHeal
             drawSize: 220
-            lifetime: 3
+            lifetime: 5
             shake: 1
             despawnEffect: smokeCloud
             smokeEffect: none
