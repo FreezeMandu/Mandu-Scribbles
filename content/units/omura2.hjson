@@ -19,38 +19,6 @@ rotateShooting: false
 
 weapons: [
     {
-        name: testweapon1
-        mirror: false
-        top: false
-        shake: 1
-        shootY: 20
-        x: 0
-        y: 10
-
-        reload: 30
-        continuous: false
-        rotate: true
-
-        bullet: {
-            type: LaserBulletType
-            damage: 100
-            length: 150
-            hitEffect: hitMeltHeal
-            drawSize: 220
-            lifetime: 10
-            shake: 1
-            despawnEffect: smokeCloud
-            smokeEffect: none
-
-            //shootEffect: greenLaserChargeSmall
-
-            incendChance: 0.05
-            incendSpread: 5
-            incendAmount: 1
-        }
-
-    },
-    {
         name: testweapon2
         mirror: true
         top: true
