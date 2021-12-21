@@ -19,18 +19,18 @@ weapons: [
     {
         name: testweapon1
         mirror: false
-        top: false
+        top: true
         shake: 1
-        shootY: 380
+        shootY: 20
         x: 0
-        y: 360
+        y: 10
 
-        reload: 60
+        reload: 30
         cooldowntime: 10
         continuous: true
 
         bullet: {
-            type: ContinuousLaserBulletType
+            type: LaserBulletType
             length: 150
             hitEffect: hitMeltHeal
             drawSize: 420
