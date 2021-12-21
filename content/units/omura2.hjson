@@ -1,6 +1,6 @@
 health: 800
 armor: 6
-speed: 3
+speed: 2
 mineTier: 4
 mineSpeed: 10
 
@@ -38,10 +38,10 @@ weapons: [
             length: 20
             speed: 4
             lifetime: 120
-            collidesTiles: false
+            collidesTiles: true
 
             splashDamage: 44
-            splashDamageRadius: 40
+            splashDamageRadius: 80
             lightning: 2
             lightningLength: 10
         }
