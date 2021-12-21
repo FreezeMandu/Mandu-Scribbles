@@ -34,7 +34,7 @@ weapons: [
 
         bullet: {
             type: ArtilleryBulletType
-            damege: 160
+            damage: 100
             height: 20
             length: 20
             speed: 5
