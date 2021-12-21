@@ -21,7 +21,7 @@ weapons: [
     {
         name: testweapon1
         mirror: false
-        top: true
+        top: false
         shake: 1
         shootY: 20
         x: 0
