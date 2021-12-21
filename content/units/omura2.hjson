@@ -26,7 +26,6 @@ weapons: [
         y: 10
 
         reload: 30
-        cooldowntime: 10
         continuous: true
 
         bullet: {
@@ -34,7 +33,7 @@ weapons: [
             length: 150
             hitEffect: hitMeltHeal
             drawSize: 420
-            lifetime: 160
+            lifetime: 30
             shake: 1
             despawnEffect: smokeCloud
             smokeEffect: none
