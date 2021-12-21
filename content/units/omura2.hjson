@@ -9,12 +9,13 @@ drag: 0.017
 lowAltitude: true
 flying: true
 engineOffset: 10.5
-rotateShooting: true
 hitSize: 18
 engineSize: 3
 payloadCapacity: 512
 buildSpeed: 2.6
 isCounted: false
+
+rotateShooting: false
 
 weapons: [
     {
@@ -36,7 +37,7 @@ weapons: [
             length: 150
             hitEffect: hitMeltHeal
             drawSize: 220
-            lifetime: 5
+            lifetime: 10
             shake: 1
             despawnEffect: smokeCloud
             smokeEffect: none
@@ -48,5 +49,32 @@ weapons: [
             incendAmount: 1
         }
 
+    },
+    {
+        name: testweapon2
+        mirror: true
+        top: true
+        shake: 1
+        shootY: 5
+        x: -5
+        y: -5
+
+        reload: 20
+        continuous: false
+        rotate: true
+
+        bullet: {
+            type: ArtilleryBulletType
+            damege: 50
+            height: 8
+            speed: 4.5
+            lifetime: 120
+            collidesTiles: false
+
+            splashDamage: 44
+            splashDamageRadius: 40
+            lightning: 2
+            lightningLength: 10
+        }
     }
 ]
