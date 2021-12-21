@@ -1,8 +1,9 @@
-mineTier: 4
-mineSpeed: 10
-health: 460
+health: 800
 armor: 6
 speed: 3
+mineTier: 4
+mineSpeed: 10
+
 accel: 0.06
 drag: 0.017
 lowAltitude: true
