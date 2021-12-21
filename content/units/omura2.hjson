@@ -3,6 +3,7 @@ armor: 6
 speed: 2
 mineTier: 4
 mineSpeed: 10
+rotateSpeed: 4
 
 accel: 0.06
 drag: 0.017
@@ -33,7 +34,7 @@ weapons: [
 
         bullet: {
             type: ArtilleryBulletType
-            damege: 50
+            damege: 80
             height: 20
             length: 20
             speed: 4
@@ -43,10 +44,10 @@ weapons: [
             collides: true
             homingPower: 0.1
 
-            splashDamage: 44
+            splashDamage: 100
             splashDamageRadius: 80
             lightning: 5
-            lightningLength: 7
+            lightningLength: 12
         }
     }
 ]
