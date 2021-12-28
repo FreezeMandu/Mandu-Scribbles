@@ -2,7 +2,7 @@
     "name": "testmod",
     "displayName": "Mandu's Scribbles",
     "author": "Mandu",
-    "version": 0.35,
+    "version": 0.36,
     "minGameVersion": 126,
     "hidden": "false"
 }
