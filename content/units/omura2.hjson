@@ -55,22 +55,23 @@ weapons: [
     },
     {
         name: testweapon1
-        mirror: false
+        mirror: true
         top: true
         shake: 1
         shootY: 5
-        x: 0
+        x: 20
         y: 0
 
-        reload: 7
+        reload: 4
+        inaccuracy: 5
         continuous: false
         rotate: true
 
         bullet: {
             type: FlakBulletType
             damage: 15
-            height: 10
-            length: 10
+            height: 5
+            length: 5
             speed: 6
             lifetime: 35
 
