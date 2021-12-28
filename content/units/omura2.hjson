@@ -86,7 +86,7 @@ weapons: [
     },
     {
         name: testweapon1
-        mirror: true
+        mirror: false
         top: true
         shake: 1
         shootY: 5
