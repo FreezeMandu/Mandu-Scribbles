@@ -32,8 +32,8 @@ weapons: [
 
         bullet: {
             type: ArtilleryBulletType
-            height: 9
-            width: 4
+            height: 12
+            width: 12
 
             speed: 5
             lifetime: 120
@@ -68,8 +68,8 @@ weapons: [
 
         bullet: {
             type: FlakBulletType
-            height: 6
-            width: 5
+            height: 7
+            width: 7
 
             speed: 6
             lifetime: 45
@@ -101,8 +101,8 @@ weapons: [
 
         bullet: {
             type: FlakBulletType
-            height: 6
-            width: 5
+            height: 7
+            width: 7
 
             speed: 6
             lifetime: 45
@@ -137,8 +137,8 @@ weapons: [
 
         bullet: {
             type: BasicBulletType
-            width: 7
-            height: 7
+            height: 9
+            width: 9
             frontColor: F9A3C7
 
             speed: 4.5
