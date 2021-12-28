@@ -64,7 +64,7 @@ weapons: [
         shots: 1
         reload: 3
         inaccuracy: 20
-        continuous: true
+        continuous: false
         rotate: true
 
         bullet: {
@@ -96,7 +96,7 @@ weapons: [
         shots: 1
         reload: 3
         inaccuracy: 20
-        continuous: true
+        continuous: false
         rotate: true
 
         bullet: {
@@ -126,7 +126,7 @@ weapons: [
         y: 0
         
         shots: 4
-        reload: 50
+        reload: 30
         continuous: false
         rotate: true
 
@@ -134,7 +134,8 @@ weapons: [
             type: BasicBulletType
             damage: 65
             speed: 3
-            lifetime: 90
+            lifetime: 70
+            length: 2
 
             collidesTiles: true
             collides: true
