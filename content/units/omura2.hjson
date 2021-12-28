@@ -1,5 +1,5 @@
-health: 3000
-armor: 10
+health: 3500
+armor: 13
 speed: 2
 mineTier: 4
 mineSpeed: 10
@@ -44,7 +44,6 @@ weapons: [
             collides: true
             collidesAir: true
             collidesGround: true
-            homingPower: 0.1
 
             splashDamage: 100
             splashDamageRadius: 80
@@ -62,10 +61,10 @@ weapons: [
         x: 25
         y: 0
         
-        shots: 2
-        reload: 3.5
+        shots: 1
+        reload: 3
         inaccuracy: 20
-        continuous: false
+        continuous: true
         rotate: true
 
         bullet: {
@@ -74,7 +73,7 @@ weapons: [
             height: 6
             length: 3
             speed: 6
-            lifetime: 40
+            lifetime: 45
 
             collidesTiles: true
             collides: true
@@ -94,10 +93,10 @@ weapons: [
         x: -25
         y: 0
         
-        shots: 2
-        reload: 3.5
+        shots: 1
+        reload: 3
         inaccuracy: 20
-        continuous: false
+        continuous: true
         rotate: true
 
         bullet: {
@@ -106,7 +105,7 @@ weapons: [
             height: 6
             length: 3
             speed: 6
-            lifetime: 40
+            lifetime: 45
 
             collidesTiles: true
             collides: true
@@ -116,5 +115,36 @@ weapons: [
             splashDamage: 30
             splashDamageRadius: 40
         }
+    },
+    {
+        name: main1
+
+        mirror: false
+        top: true
+        shootY: 6
+        x: 0
+        y: 0
+        
+        shots: 4
+        reload: 50
+        continuous: false
+        rotate: true
+
+        bullet: {
+            type: BasicBulletType
+            damage: 65
+            speed: 3
+            lifetime: 90
+
+            collidesTiles: true
+            collides: true
+            collidesGround: true
+            collidesAir: true
+
+            makefire: true
+            pierceCap: 2
+            pierceBuilding: true
+        }
+
     }
 ]
