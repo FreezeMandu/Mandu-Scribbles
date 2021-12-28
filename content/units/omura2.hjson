@@ -127,9 +127,9 @@ weapons: [
         x: 0
         y: 0
         
-        shots: 1
-        reload: 20
-        restitution: 1
+        shots: 2
+        reload: 5
+        restitution: 0.1
         burstSpacing: 3
 
         continuous: false
@@ -141,8 +141,8 @@ weapons: [
             width: 9
             frontColor: F9A3C7
 
-            speed: 4.5
-            lifetime: 50
+            speed: 5
+            lifetime: 70
             damage: 65
 
             collidesTiles: true
