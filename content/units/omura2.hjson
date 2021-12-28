@@ -72,7 +72,7 @@ weapons: [
             type: FlakBulletType
             damage: 15
             height: 6
-            length: 4
+            length: 3
             speed: 6
             lifetime: 40
 
@@ -103,7 +103,7 @@ weapons: [
             type: FlakBulletType
             damage: 15
             height: 6
-            length: 4
+            length: 3
             speed: 6
             lifetime: 40
 
