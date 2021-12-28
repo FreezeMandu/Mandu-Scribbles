@@ -28,7 +28,7 @@ weapons: [
         x: 20
         y: -35
 
-        reload: 30
+        reload: 40
         continuous: false
         rotate: true
 
@@ -72,9 +72,9 @@ weapons: [
             type: FlakBulletType
             damage: 15
             height: 6
-            length: 5
+            length: 4
             speed: 6
-            lifetime: 35
+            lifetime: 40
 
             collidesTiles: true
             collidesGround: true
@@ -103,9 +103,9 @@ weapons: [
             type: FlakBulletType
             damage: 15
             height: 6
-            length: 5
+            length: 4
             speed: 6
-            lifetime: 35
+            lifetime: 40
 
             collidesTiles: true
             collidesGround: true
