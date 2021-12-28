@@ -125,9 +125,10 @@ weapons: [
         x: 0
         y: 0
         
-        shots: 1
-        ammoMultiplier: 4
+        shots: 4
         reload: 20
+        restitution: 0.1
+
         continuous: false
         rotate: true
 
@@ -136,7 +137,7 @@ weapons: [
             damage: 65
             speed: 4.5
             lifetime: 50
-            length: 1
+            length: 2
             height: 2
 
             collidesTiles: true
