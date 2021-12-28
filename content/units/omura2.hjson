@@ -136,7 +136,8 @@ weapons: [
             damage: 65
             speed: 4.5
             lifetime: 50
-            length: 2
+            length: 1
+            height: 2
 
             collidesTiles: true
             collides: true
