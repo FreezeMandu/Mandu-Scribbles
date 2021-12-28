@@ -61,16 +61,17 @@ weapons: [
         shootY: 5
         x: 20
         y: 0
-
-        reload: 4
-        inaccuracy: 5
+        
+        shots: 3
+        reload: 1
+        inaccuracy: 15
         continuous: false
         rotate: true
 
         bullet: {
             type: FlakBulletType
             damage: 15
-            height: 5
+            height: 8
             length: 5
             speed: 6
             lifetime: 35
