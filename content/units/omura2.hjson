@@ -55,23 +55,54 @@ weapons: [
     },
     {
         name: testweapon1
-        mirror: true
+        mirror: false
         top: true
         shake: 1
         shootY: 5
-        x: 20
+        x: 25
         y: 0
         
-        shots: 3
-        reload: 1
-        inaccuracy: 15
+        shots: 2
+        reload: 3
+        inaccuracy: 20
         continuous: false
         rotate: true
 
         bullet: {
             type: FlakBulletType
             damage: 15
-            height: 8
+            height: 6
+            length: 5
+            speed: 6
+            lifetime: 35
+
+            collidesTiles: true
+            collidesGround: true
+            collidesAir: true
+
+            splashDamage: 30
+            splashDamageRadius: 40
+        }
+    },
+    {
+        name: testweapon1
+        mirror: true
+        top: true
+        shake: 1
+        shootY: 5
+        x: -25
+        y: 0
+        
+        shots: 2
+        reload: 3
+        inaccuracy: 20
+        continuous: false
+        rotate: true
+
+        bullet: {
+            type: FlakBulletType
+            damage: 15
+            height: 6
             length: 5
             speed: 6
             lifetime: 35
