@@ -1,0 +1,12 @@
+type: PointDefenseTurret
+
+health: 600
+size: 2
+range: 90
+
+hasPower: false
+absorbLasers: true
+insulated: true
+
+alwaysUnlocked: true
+buildVisibility: shown
