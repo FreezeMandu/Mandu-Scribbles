@@ -8,8 +8,8 @@ reloadTime: 5
 hasPower: false
 absorbLasers: true
 insulated: true
-lightningChance: 0.1
-chanceDeflect: 0.1
+//lightningChance: 0.1
+//chanceDeflect: 0.1
 
 alwaysUnlocked: true
 buildVisibility: shown
