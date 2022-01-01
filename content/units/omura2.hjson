@@ -16,14 +16,14 @@ isCounted: false
 
 rotateShooting: false
 
-ability: [
+/*abilities: [
     {
         name: RepairFieldAbility
         amount: 130
         reload: 60
         range: 140
     }
-]
+]*/
 
 weapons: [
     {
