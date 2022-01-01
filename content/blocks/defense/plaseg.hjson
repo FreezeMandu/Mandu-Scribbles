@@ -9,4 +9,5 @@ absorbLasers: true
 insulated: true
 
 alwaysUnlocked: true
-buildVisibility: shown
+buildVisibility: "shown"
+category: defense
