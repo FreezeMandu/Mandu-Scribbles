@@ -49,6 +49,7 @@ weapons: [
             lightning: 5
             lightningLength: 12
             lightningDamage: 18
+            status: sapped
         }
     },
     {
