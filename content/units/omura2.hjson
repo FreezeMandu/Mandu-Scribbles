@@ -117,7 +117,7 @@ weapons: [
             splashDamage: 30
             splashDamageRadius: 40
             makefire: true
-            status: [burning, blasted]
+            status: burning
             statusDuration: 6
         }
     },
