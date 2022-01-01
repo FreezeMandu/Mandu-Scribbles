@@ -82,6 +82,7 @@ weapons: [
 
             splashDamage: 30
             splashDamageRadius: 40
+            status: blasted
         }
     },
     {
@@ -116,7 +117,7 @@ weapons: [
             splashDamage: 30
             splashDamageRadius: 40
             makefire: true
-            status: burning
+            status: burning, blasted
             statusDuration: 6
         }
     },
