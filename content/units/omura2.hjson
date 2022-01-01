@@ -16,7 +16,7 @@ isCounted: false
 
 rotateShooting: false
 
-abilitie: [
+ability: [
     {
         name: RepairFieldAbility
         amount: 130
