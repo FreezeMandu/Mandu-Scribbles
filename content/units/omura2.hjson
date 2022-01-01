@@ -15,7 +15,15 @@ buildSpeed: 2.6
 isCounted: false
 
 rotateShooting: false
-abilities.add: [RepairFieldAbility/130, 60, 140]
+
+abilities: [
+    {
+        name: RepairFieldAbility
+        amount: 130
+        reload: 60
+        range: 140
+    }
+]
 
 weapons: [
     {
