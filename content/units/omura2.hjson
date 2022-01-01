@@ -82,7 +82,7 @@ weapons: [
 
             splashDamage: 30
             splashDamageRadius: 40
-            status: blasted
+            status: melting
         }
     },
     {
@@ -156,6 +156,7 @@ weapons: [
             makefire: true
             pierceCap: 2
             pierceBuilding: true
+            status: tarred
         }
 
     }
