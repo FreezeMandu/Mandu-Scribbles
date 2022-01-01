@@ -1,6 +1,6 @@
 type: PointDefenseTurret
 
-health: 2000
+health: 3000
 size: 2
 range: 120
 reloadTime: 5
