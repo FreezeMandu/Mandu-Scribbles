@@ -2,7 +2,8 @@ type: PointDefenseTurret
 
 health: 2000
 size: 2
-range: 90
+range: 120
+reloadTime: 5
 
 hasPower: false
 absorbLasers: true
