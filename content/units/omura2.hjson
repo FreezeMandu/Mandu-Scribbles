@@ -140,8 +140,8 @@ weapons: [
         x: 0
         y: 0
         
-        shots: 2
-        reload: 5
+        shots: 3
+        reload: 10
         restitution: 0.1
         burstSpacing: 3
 
