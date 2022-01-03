@@ -30,7 +30,7 @@ weapons: [
         continuous: true
 
         bullet: {
-            type: tractorBeam
+            type: TractorBeam
             force: 12
             range: 180
             damage: 12
