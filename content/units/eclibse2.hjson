@@ -24,6 +24,8 @@ weapons: [
         shootY: 2
         x: 20
         y: 0
+        
+        reload: 1
 
         bullet: {
             type: TractorBeam
