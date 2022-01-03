@@ -144,6 +144,7 @@ weapons: [
         reload: 5
         restitution: 0.1
         burstSpacing: 3
+        inaccuracy: 0
 
         continuous: false
         rotate: true
@@ -157,7 +158,6 @@ weapons: [
             speed: 5
             lifetime: 70
             damage: 65
-            shots: 3
 
             collidesTiles: true
             collides: true
