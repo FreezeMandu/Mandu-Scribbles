@@ -27,13 +27,13 @@ weapons: [
 
         targetAir: true
         targetGround: false
-        reload: 1
+        continuous: true
 
         bullet: {
-            type: TractorBeam
+            type: tractorBeam
             force: 12
-            range: 120
-            damage: 3
+            range: 180
+            damage: 12
         }
     }
 ]
