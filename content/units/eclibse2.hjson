@@ -24,7 +24,9 @@ weapons: [
         shootY: 2
         x: 20
         y: 0
-        
+
+        targetAir: true
+        targetGround: false
         reload: 1
 
         bullet: {
